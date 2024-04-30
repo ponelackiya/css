@@ -1,0 +1,46 @@
+.name:hover h2{
+    color: aqua;
+}
+.name:hover p{
+    color: blue;
+}
+.name:hover{
+    background-color: gray;
+}
+#name:hover{
+    color: blueviolet;
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: brown;
+} 
+h1{
+    text-align: center;
+}
+h1::before{
+    content: "";
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    background-color: purple;
+}
+h1::after{
+    content: "";
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 40px;
+    right: 500px;
+    background-color: purple;
+}
